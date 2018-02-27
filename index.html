@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+	<h1>Crystal Collector</h1>
+
+	<div class="instructions">
+		<h3>How to play</h3>
+		</br>
+		<ol>
+			<li>Clicking a crystal adds a specific amount of points to your score.</li>
+			<li>Match your score to the number to guess to win.</li>
+			<li>If your score goes above the number to guess, you lose.</li>
+		</ol>
+	</div>
+
+	<div class="numberToMatch">
+		<h2>Number To Guess:
+			<span id= "randomNumber"></span>
+		</h2>
+	</div>
+
+	<div class="winsAndLosses">
+		<h2>Wins:
+			<span id= "numberWins"></span>
+			</br>
+			Losses: 
+			<span id= "numberLosses"></span>
+		</h2>
+	</div>
+
+	<div class="gems">
+		<img src="assets/images/blue-crystal.jpg" class=gemImage id="one" alt="Blue Gem">
+		<img src="assets/images/green-crystal.jpg" class=gemImage id="two" alt="Green Gem">
+		<img src="assets/images/red-crystal.jpg" class=gemImage id= "three" alt="Red Gem">
+		<img src="assets/images/yellow-crystal.jpg" class=gemImage id= "four" alt="Yellow Gem">
+	</div>
+
+	<div class="userTotal">
+		<h2>Your score is:
+			<span id="finalTotal"></span>
+		</h2>
+	</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

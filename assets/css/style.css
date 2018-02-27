@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+
+body{
+	background-image: url("https://i.ytimg.com/vi/w94ZB0VJUp4/maxresdefault.jpg"); 
+	font-family: Luminari, fantasy;
+}
+div{
+	margin: 10px;
+}
+div{
+	padding: 10px;
+}
+h3, span{
+	font-weight: bold;
+	text-align: center;
+}
+
+ol{
+	list-style: decimal inside; 
+}
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+
+h1{
+	color:#B8860B;
+	font: 50px "Fredericka the Great";
+	border: none;
+
+}
+
+div.gems{
+	background-color: black;
+	width: 25%
+
+}
+
+div.instructions{
+	font: 'Cedarville Cursive', cursive;
+	width: 50%;
+	background-image: url("https://img-aws.ehowcdn.com/640x395p/s3.amazonaws.com/cme_public_images/www_ehow_com/i.ehow.com/images/a05/gh/i7/print-parchment-paper-1.1-800x800.jpg")
+}
+
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 15%;
+	height: 60px;
+	background-image: url("https://img-aws.ehowcdn.com/640x395p/s3.amazonaws.com/cme_public_images/www_ehow_com/i.ehow.com/images/a05/gh/i7/print-parchment-paper-1.1-800x800.jpg")}
+.userTotal{
+	width: 15%;
+	height: 60px;
+	background-image: url("https://img-aws.ehowcdn.com/640x395p/s3.amazonaws.com/cme_public_images/www_ehow_com/i.ehow.com/images/a05/gh/i7/print-parchment-paper-1.1-800x800.jpg")
+}
+.gems{
+	clear: both;
+}
+.gemImage{
+	height: 60px;
+	margin: 10px;
+}
